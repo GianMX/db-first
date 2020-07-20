@@ -3,7 +3,13 @@ ListinoAutoUsate
 Id - primarykey INT NOTNULL (auto-increment unique)
 Marca - stringa VARCHAR(44) NOTNULL
 Modello - stringa VARCHAR(44)
+Anno - intero YEAR
+Km - int INT NOTNULL
 Descrizione - string TEXT
 Optional - stringa TEXT
+Alimentazione - stringa VARCHAR(44)
+Cambio - stringa VARCHAR(44)
+Passeggeri - intero TINYINT
 Prezzo - intero INT NOTNULL
 Disponibilità - TINYINT NOTNULL
+Foto - stringa VARCHAR (44)  // img path 
