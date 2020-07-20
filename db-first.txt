@@ -1,0 +1,9 @@
+ListinoAutoUsate
+
+Id - primarykey INT NOTNULL (auto-increment unique)
+Marca - stringa VARCHAR(44) NOTNULL
+Modello - stringa VARCHAR(44)
+Descrizione - string TEXT
+Optional - stringa TEXT
+Prezzo - intero INT NOTNULL
+Disponibilità - TINYINT NOTNULL
